@@ -11,7 +11,10 @@ nav{
     align-items:center;
     justify-content:space-between;
     background-color: #E6B0AA ;
-    
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 nav h1 {
     color: rgb(10, 10, 10);
@@ -105,6 +108,7 @@ h4{
     margin:20px auto;
     left:100px;
 }
+
 .title h2 span{
  color:#D98880;
     font-size: xx-large;
@@ -195,6 +199,27 @@ color:black;
     padding: 1.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.certification-card img {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+@media (max-width: 480px) {
+    .certification-card {
+        width: 100%; /* Full width for small screens */
+    }
+
+    .section-title {
+        font-size: 1.5em;
+    }
+
+    .cert-title {
+        font-size: 1em;
+    }
+
+    .cert-date {
+        font-size: 0.8em;
+    }
 }
 
 .certification-card:hover {
