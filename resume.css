@@ -2,21 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
 body{
     background: rgb(60, 54, 54);
-    color:white;
-
-
+    color:white
 }
+
+
 nav{
     display:flex;
-    
     align-items:center;
     justify-content:space-between;
     background-color: #E6B0AA ;
     
 }
 nav h1 {
-    color: white;
+    color: rgb(10, 10, 10);
     margin: 0;
+    font-style: oblique;
 }
 
 nav ul {
@@ -105,7 +105,11 @@ h4{
     margin:20px auto;
     left:100px;
 }
-
+.title h2 span{
+ color:#D98880;
+    font-size: xx-large;
+    font-style: bold;
+}
 
 
 .box {
@@ -121,7 +125,7 @@ h4{
 
 .box ul {
     margin: 10px;
-    font-size: 1em;
+    font-size: 1.3em;
     color: #080808;
     
 }
